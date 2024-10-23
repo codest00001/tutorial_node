@@ -7,5 +7,5 @@ console.log(typeof ( {} )); //object
 
 let a = 2.333;
 console.log(typeof a); //number
-console.log(typeof (a)); //number
+console.log(typeof (a)); //number출력됨
 
