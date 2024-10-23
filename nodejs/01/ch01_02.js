@@ -1,4 +1,6 @@
 console.log(2+3);
+
+//이스케이프 시퀀스
 console.log("this is \"string\" "); //this is "string" 이렇게 출력됨 \"라고 써야 " 출력됨
 
 console.log("this is \'string\' "); 
