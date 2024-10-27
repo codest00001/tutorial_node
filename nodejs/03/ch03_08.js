@@ -1,7 +1,7 @@
 const os = require('os');
 
 console.log(`Platform : ${os.platform()}`);
-console.log(`Architcture : ${os.arch()}`)
+console.log(`Architecture : ${os.arch()}`)
 console.log(`CPU : ${os.cpus().length}`)
 console.log(`Total Mem : ${os.totalmem()}`)
 console.log(`hostname : ${os.hostname()}`)
