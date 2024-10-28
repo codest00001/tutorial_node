@@ -5,7 +5,7 @@ const path = require('path');
 
 //database설정하기
 const db_name = path.join(__dirname,"post.db"); // __dirname이 그 디렉토리 정보를 가져옴. sqlite3 database 파일 이름
-const db = new sqlite3.Database(db_name); //db변수에 객체 생성
+const db = new sqlite3.Database(db_name); //db변수에 객체 생성//
 
 const create_sql = `
     create table if not exists posts(
